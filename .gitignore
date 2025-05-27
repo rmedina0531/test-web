@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# compiled output
+dist/
+
+# editor configs
+.vscode/
+*.log
+.env
