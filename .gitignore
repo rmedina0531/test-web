@@ -8,3 +8,6 @@ dist/
 .vscode/
 *.log
 .env
+
+# Jenkins connection file
+jenkins_key.pem

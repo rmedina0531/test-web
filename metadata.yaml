@@ -7,7 +7,7 @@ metadata:
   displayName: test-web
   description: testing pipelines
   labels:
-    language: # java|typescript|golang. This label can be manually set, but the value is overwritten if GitHub determines the repository language
+    language: typescript
     # anyKey: anyValue
   tags: # These tags are enriched with the Github repository topics
     # - Tag 1
