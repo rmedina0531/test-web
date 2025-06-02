@@ -7,7 +7,11 @@ COPY package*.json ./
 RUN npm cache clean --force && \
     npm install --no-optional
 
+#Copy source
 COPY . .
 
+# Expose the port your app runs on
 EXPOSE 3000
-CMD ["npm", "start"]
+
+# Start the app
+CMD ["npx", "ts-node-dev", "src/server.ts"]
